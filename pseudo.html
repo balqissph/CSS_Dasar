@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pseudo-class Selector</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Balqis Amanda">
+    <meta name="nim" content="234311008">
+    <style>
+        p {
+            display: none;
+            background-color: darkgray;
+            padding: 20px
+        }
+
+        div:hover p { /* :haver adalah CSS Pseudo Class */
+            display: block;
+        }
+
+        div:hover a {
+                color: blue;
+                font-size: 25px;
+        }
+
+        a {
+                display: flex;
+            }
+    </style>
+</head>
+<body>
+    <div>Letakkan kursor disini untuk melihat div element
+        <p>Saya adalah element</p>
+    </div>
+    <a href="https://github.com/balqissph/CSS_Dasar">Link berubah warna</a>
+</body>
+</html>

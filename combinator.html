@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Combinator Selector</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Balqis Amanda">
+        <meta name="nim" content="234311008">
+        <style>
+            div p {/* no 1 */
+                color: red;
+            }
+            div > p {/* no 2*/
+                background-color: yellow;
+            }
+            div + p {/* no 3*/
+                background-color: darkgray;
+            }
+            div ~ p {/* no 4*/
+                color: cyan;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <p>This is a paragraph. Terangkan kesimpulan tentang selektor no 1 pada paragraf ini</p>
+            <p>This is a paragraph. Terangkan kesimpulan tentang selektor no 2 pada paragraf ini</p>
+        </div>
+        <p>This is a paragraph. Terangkan kesimpulan tentang selektor no 3 pada paragraf ini</p>
+        <p>This is a paragraph. Terangkan kesimpulan tentang selektor no 4 pada paragraf ini</p>
+    </body>
+</html>
